@@ -10,5 +10,5 @@ else:
   print("Enter correct username")	
 
 password="hello"+user
-encryptpassword = crypt.crypt(password,"22") 
+encryptpassword = crypt.crypt(password,"26") 
 subprocess.call("useradd -p " + encryptpassword +" "+user, shell=True)
